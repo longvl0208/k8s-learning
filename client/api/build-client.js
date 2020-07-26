@@ -5,8 +5,8 @@ export default ({ req }) => {
     // We are on the server
 
     return axios.create({
-      baseURL: 'http://ingress-nginx.ingress-nginx.svc.cluster.local',
-      headers: req.headers
+      baseURL: "http://www.longvl.com/",
+      headers: req.headers,
     });
   } else {
     // We must be on the browser
