@@ -7,7 +7,7 @@ metadata:
     nginx.ingress.kubernetes.io/use-regex: 'true'
 spec:
   rules:
-    - host: www.www.longvl.com
+    - host: www.longvl.com
       http:
         paths:
           - path: /api/payments/?(.*)
