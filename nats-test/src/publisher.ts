@@ -3,7 +3,7 @@ import { TicketCreatedPublisher } from './events/ticket-created-publisher';
 
 console.clear();
 
-const stan = nats.connect('ticketing', 'abc', {
+const stan = nats.connect('demo-ticketing', 'abc', {
   url: 'http://localhost:4222',
 });
 
