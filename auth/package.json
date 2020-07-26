@@ -1,10 +1,10 @@
 {
   "name": "auth",
   "version": "1.0.0",
-  "description": "",
+  "description": "auth service",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node-dev src/index.ts",
+    "start": "ts-node-dev --poll src/index.ts",
     "test": "jest --watchAll --no-cache",
     "test:ci": "jest"
   },
